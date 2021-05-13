@@ -1,0 +1,249 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: rgb(11, 11, 37);
+  color: #837a7a;
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  border: 0;
+}
+.title, .search-location{
+  display: inline-block;
+  position: relative;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  left: 25%;
+}
+
+.search-location{
+  width: 30%;
+  height: 50px;
+  left: 30%;
+  top: -10px;
+}
+
+.container {
+  width: 70%;
+  height: 600px;
+  position: relative;
+  top: -10px;
+}
+
+.card-top{
+  width: 100%;
+  height: 50%;
+}
+
+.main-description{
+  display: flex;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+.image__back{
+  width: 100%;
+  height: 100%;
+  border-radius: 40px 40px 0 0;
+}
+.form-rounded {
+  border-radius: 2em;
+}
+
+.back-card {
+  border-radius: 40px !important;
+  height: 100%;
+  width: 70%;
+  margin: 0;
+}
+
+.card-body{
+  height: 50%;
+}
+
+.city-name {
+  position: absolute;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+}
+
+.cityName-span {
+  font-weight: 400;
+  font-size: 36pt;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: -60px;
+}
+
+.temp{
+  width: 55%;
+  padding-top: 30px;
+}
+
+.temp span {
+  color: #fff;
+  font-size: 6rem;
+  letter-spacing: -5px;
+  white-space: nowrap;
+}
+
+.min-max{
+  color: #fff;
+  position: relative;
+  top: 65px;
+}
+
+.feels-humidity{
+  color: #fff;
+  position: relative;
+  top: 130px;
+}
+
+.condition {
+  color: #fff;
+  line-height: 1em;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.condition-temp{
+  font-size:  2rem;
+}
+
+.high b{
+  font-size: 18px;
+}
+
+.additional-desc b{
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 2px;
+  bottom: 6px;
+  right: 25px;
+  font-weight: 900;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+.icon-container img {
+  margin: auto;
+  height: 210px;
+}
+
+.icon-div{
+  border: 0;
+}
+
+.additional-desc{
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: -2px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 80%;
+    height: 600px;
+    position: relative;
+    top: -10px;
+  }
+
+  .back-card{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    left: 14%;
+  }
+  .search-location{
+    width: 40%;
+    height: 50px;
+    left: 18%;
+    top: -4px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main-description{
+    top: 120px;
+  }
+  .condition {
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  .icon-container img {
+    margin: auto;
+    height: 170px;
+  }
+  
+  .temp span {
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: -5px;
+    white-space: nowrap;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 18px;
+    left: 10%;
+  }
+  .search-location{
+    width: 47%;
+    height: 50px;
+    left: 14%;
+    top: -4px;
+  }
+
+  .search-location input{
+    font-size: 12px;
+  }
+
+  .additional-desc {
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+  }
+
+  .additional-desc b{
+    font-size: 14px;
+    right: 9px;
+    bottom: 2px;
+  }
+
+  .temp{
+    width: 50%;
+    padding-top: 30px;
+  }
+
+  .icon-container img {
+    margin: auto;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: -10px;
+  }
+}
